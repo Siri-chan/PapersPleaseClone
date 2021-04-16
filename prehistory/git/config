@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Siri-chan/NotPapersPleaseClone.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs "https://github.com/Siri-chan/PapersPleaseClone.git/info/lfs"]
+	access = basic
+[lfs "https://github.com/Siri-chan/NotPapersPleaseClone.git/info/lfs"]
+	access = basic
