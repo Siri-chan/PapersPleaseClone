@@ -8,5 +8,5 @@ I wanted to learn the new input system, as well as how to use 2D Unity. I've don
 This is not officially related to the talented work of Lucas Pope, and I hope to distance the project from it when it is a bit more complete.
 ## How do I... ?
 - Left to Deny  
-- Right to Confirm
+- Right to Confirm  
 This works for the Arrow Keys, Mouse Buttons, A and D and even the Left Stick of your Controller!
