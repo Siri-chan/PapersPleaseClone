@@ -23,7 +23,7 @@ public class Game : MonoBehaviour
     void GenPassport(){
         x = new Passport();
         //you can use x.credentials[i] to handle `if` statements with easier logic, then just use x.surname/forename/whatever for visual handling
-        Debug.Log(" Name: " + x.forename + " " + x.surname + "\n Country: " + x.country + "\n Printing Company: " + x.printer + "\n Gender: " + x.gender + "\n Email: " + x.email + "\n Issuing Date: " + x.issueYear + "-" + x.issueMonth + "-" + x.issueDay + "\n Weight: " + x.weight + "\n Height: " + x.height);
+        Debug.Log(" Name: " + x.forename + " " + x.surname + "\n Country: " + x.country + "\n Printing Company: " + x.printer + "\n Gender: " + x.gender + "\n Email: " + x.email + "\n Issuing Date: " + x.issueYear + "-" + x.issueMonth + "-" + x.issueDay + "\n Weight: " + x.weight + "\n Height: " + x.height); // this is getting long ngl
         hasPassport = true;
     }
     public void OnConfirm(){
