@@ -14,7 +14,7 @@ public class InfoGenerator : MonoBehaviour
     femaleForenames = new string[] {"Sara", "Kira"};
     countries = new string[] {"Korea", "China"}; //make these fictional eventually
     printers = new string[] {"Teutonikus Ltd.", "JYL"}; 
-    genders = new string[] {"Male", "Female"};
+    genders = new string[] {"Male", "Female", "Non-Binary"};
     emailPrefixes = new string[] {""};
     emailSuffixes = new string[] {"yawoo.rn", "baobao.kr"};
     }
@@ -22,13 +22,12 @@ public class InfoGenerator : MonoBehaviour
         return surnames[i];
     }    
     public string GenerateForename(int i, int gender){
-        switch (gender){
-        case(0):
-        return maleForenames[i]; // add a chance for n/b people
-        case(1):
-        return femaleForenames[i];
-        default:
-        return forenames[i];
+        if(gender % 5 == 0){
+            return forenames[i];
+        }else if(gender % 2 == 0){
+            return maleForenames[i]; 
+        } else {
+            return femaleForenames[i];
         }
     }    
     public string GenerateCountry(int i){
@@ -38,7 +37,13 @@ public class InfoGenerator : MonoBehaviour
         return printers[i];
     }    
     public string GenerateGender(int i){
-        return genders[i];
+        if(i % 5 == 0){
+            return genders[2];
+        }else if(i % 2 == 0){
+            return genders[0];
+        } else {
+            return genders[1];
+        }
     }
     public string GenerateEmail(int i){
         string tmp = emailPrefixes[0]; // replace this with a method to customise based on name, maybe pass forename/surname in as well

@@ -26,10 +26,10 @@
                 {
                     "name": "",
                     "id": "2a36101c-1398-4416-8679-fff46abadeef",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/Arrows;KBandM/Mouse;KBandM/WASD",
+                    "groups": "GamePad",
                     "action": "Deny",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -40,7 +40,7 @@
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/Arrows",
+                    "groups": "KBandM/Arrows;KBandM/WASD",
                     "action": "Deny",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -62,7 +62,7 @@
                     "path": "<Keyboard>/#(A)",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/WASD",
+                    "groups": "KBandM/WASD;KBandM/Arrows",
                     "action": "Deny",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -73,7 +73,7 @@
                     "path": "<Keyboard>/#(D)",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/WASD",
+                    "groups": "KBandM/WASD;KBandM/Arrows",
                     "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -95,18 +95,18 @@
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/Arrows",
+                    "groups": "KBandM/Arrows;KBandM/WASD",
                     "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "11447d47-31ca-41f1-bac3-b12cdc11b3f9",
-                    "path": "<Mouse>/rightButton",
+                    "id": "f761782e-a250-41a5-beba-363a0c3f6e4a",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
-                    "groups": "KBandM/Arrows;KBandM/Mouse;KBandM/WASD",
+                    "groups": "GamePad",
                     "action": "Confirm",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -146,17 +146,6 @@
             "name": "KBandM/WASD",
             "bindingGroup": "KBandM/WASD",
             "devices": []
-        },
-        {
-            "name": "KBandM/Mouse",
-            "bindingGroup": "KBandM/Mouse",
-            "devices": [
-                {
-                    "devicePath": "<Mouse>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
         }
     ]
 }

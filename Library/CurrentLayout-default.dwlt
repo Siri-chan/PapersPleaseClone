@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1600
     height: 817
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 461
     width: 591
     height: 306
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 142
+  controlID: 164
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,10 +96,10 @@ MonoBehaviour:
     y: 30
     width: 1600
     height: 767
-  m_MinSize: {x: 679, y: 492}
+  m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 141
+  controlID: 163
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 0
     width: 591
     height: 461
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -146,8 +146,8 @@ MonoBehaviour:
     y: 0
     width: 207
     height: 464
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -274,10 +274,10 @@ MonoBehaviour:
     y: 0
     width: 1009
     height: 767
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 115
+  controlID: 116
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,10 +299,10 @@ MonoBehaviour:
     y: 0
     width: 1009
     height: 464
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 116
+  controlID: 117
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,9 +381,9 @@ MonoBehaviour:
     m_SearchString: 
   m_ActionsTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 015d5763
-    m_LastClickedID: 1666669825
-    m_ExpandedIDs: 
+    m_SelectedIDs: c1393163
+    m_LastClickedID: 1664170433
+    m_ExpandedIDs: 5874da90df72d431015d5763
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -403,7 +403,22 @@ MonoBehaviour:
     m_SearchString: 
   m_ControlPickerViewState:
     m_AdvancedDropdownState:
-      states: []
+      states:
+      - itemId: 371857150
+        selectedIndex: 2
+        scroll: {x: 0, y: 0}
+      - itemId: 82801685
+        selectedIndex: 4
+        scroll: {x: 0, y: 0}
+      - itemId: 1081013944
+        selectedIndex: 0
+        scroll: {x: 0, y: 0}
+      - itemId: 1275948795
+        selectedIndex: 24
+        scroll: {x: 0, y: 183.5}
+      - itemId: -728233463
+        selectedIndex: -1
+        scroll: {x: 0, y: 0}
     m_ManualPathEditMode: 0
   m_ActionAssetManager:
     m_AssetObjectForEditing: {fileID: 0}
@@ -421,14 +436,14 @@ MonoBehaviour:
       \"interactions\": \"\"\n                }\n            ],\n            \"bindings\":
       [\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"2a36101c-1398-4416-8679-fff46abadeef\",\n                    \"path\":
-      \"<Mouse>/leftButton\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"KBandM/Arrows;KBandM/Mouse;KBandM/WASD\",\n                   
+      \"<Gamepad>/leftTrigger\",\n                    \"interactions\": \"\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"GamePad\",\n                   
       \"action\": \"Deny\",\n                    \"isComposite\": false,\n                   
       \"isPartOfComposite\": false\n                },\n                {\n                   
       \"name\": \"\",\n                    \"id\": \"aaf36f9b-cd3f-4f9d-b120-370c5e981b07\",\n                   
       \"path\": \"<Keyboard>/leftArrow\",\n                    \"interactions\":
       \"\",\n                    \"processors\": \"\",\n                    \"groups\":
-      \"KBandM/Arrows\",\n                    \"action\": \"Deny\",\n                   
+      \"KBandM/Arrows;KBandM/WASD\",\n                    \"action\": \"Deny\",\n                   
       \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
       },\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"0b6a78c1-1d47-4aea-9ebf-4a559e1eaf20\",\n                    \"path\":
@@ -438,12 +453,12 @@ MonoBehaviour:
       \"isPartOfComposite\": false\n                },\n                {\n                   
       \"name\": \"\",\n                    \"id\": \"c17ca2b1-c2c0-494a-a53a-0e06bebc606c\",\n                   
       \"path\": \"<Keyboard>/#(A)\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"KBandM/WASD\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"KBandM/WASD;KBandM/Arrows\",\n                   
       \"action\": \"Deny\",\n                    \"isComposite\": false,\n                   
       \"isPartOfComposite\": false\n                },\n                {\n                   
       \"name\": \"\",\n                    \"id\": \"f8b0c28b-eace-4cc4-b719-8c258b57dc9f\",\n                   
       \"path\": \"<Keyboard>/#(D)\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"KBandM/WASD\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"KBandM/WASD;KBandM/Arrows\",\n                   
       \"action\": \"Confirm\",\n                    \"isComposite\": false,\n                   
       \"isPartOfComposite\": false\n                },\n                {\n                   
       \"name\": \"\",\n                    \"id\": \"d422f190-270d-4d26-ac76-f6916f597e50\",\n                   
@@ -454,17 +469,17 @@ MonoBehaviour:
       },\n                {\n                    \"name\": \"\",\n                   
       \"id\": \"3fb6fbf7-aff5-4c00-b9c6-78a11c435cdf\",\n                    \"path\":
       \"<Keyboard>/rightArrow\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"KBandM/Arrows\",\n                   
+      \"processors\": \"\",\n                    \"groups\": \"KBandM/Arrows;KBandM/WASD\",\n                   
       \"action\": \"Confirm\",\n                    \"isComposite\": false,\n                   
       \"isPartOfComposite\": false\n                },\n                {\n                   
-      \"name\": \"\",\n                    \"id\": \"11447d47-31ca-41f1-bac3-b12cdc11b3f9\",\n                   
-      \"path\": \"<Mouse>/rightButton\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"KBandM/Arrows;KBandM/Mouse;KBandM/WASD\",\n                   
-      \"action\": \"Confirm\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": false\n                }\n            ]\n        }\n   
-      ],\n    \"controlSchemes\": [\n        {\n            \"name\": \"KBandM/Arrows\",\n           
-      \"bindingGroup\": \"KBandM/Arrows\",\n            \"devices\": [\n               
-      {\n                    \"devicePath\": \"<Keyboard>\",\n                   
+      \"name\": \"\",\n                    \"id\": \"f761782e-a250-41a5-beba-363a0c3f6e4a\",\n                   
+      \"path\": \"<Gamepad>/rightTrigger\",\n                    \"interactions\":
+      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
+      \"GamePad\",\n                    \"action\": \"Confirm\",\n                   
+      \"isComposite\": false,\n                    \"isPartOfComposite\": false\n               
+      }\n            ]\n        }\n    ],\n    \"controlSchemes\": [\n        {\n           
+      \"name\": \"KBandM/Arrows\",\n            \"bindingGroup\": \"KBandM/Arrows\",\n           
+      \"devices\": [\n                {\n                    \"devicePath\": \"<Keyboard>\",\n                   
       \"isOptional\": false,\n                    \"isOR\": false\n               
       },\n                {\n                    \"devicePath\": \"<Mouse>\",\n                   
       \"isOptional\": false,\n                    \"isOR\": false\n               
@@ -473,11 +488,8 @@ MonoBehaviour:
       {\n                    \"devicePath\": \"<Gamepad>\",\n                   
       \"isOptional\": false,\n                    \"isOR\": false\n               
       }\n            ]\n        },\n        {\n            \"name\": \"KBandM/WASD\",\n           
-      \"bindingGroup\": \"KBandM/WASD\",\n            \"devices\": []\n        },\n       
-      {\n            \"name\": \"KBandM/Mouse\",\n            \"bindingGroup\": \"KBandM/Mouse\",\n           
-      \"devices\": [\n                {\n                    \"devicePath\": \"<Mouse>\",\n                   
-      \"isOptional\": false,\n                    \"isOR\": false\n               
-      }\n            ]\n        }\n    ]\n}"
+      \"bindingGroup\": \"KBandM/WASD\",\n            \"devices\": []\n        }\n   
+      ]\n}"
     m_IsDirty: 0
   m_Toolbar:
     m_IsDirty: 0
@@ -499,11 +511,6 @@ MonoBehaviour:
     - m_Name: KBandM/WASD
       m_BindingGroup: KBandM/WASD
       m_DeviceRequirements: []
-    - m_Name: KBandM/Mouse
-      m_BindingGroup: KBandM/Mouse
-      m_DeviceRequirements:
-      - m_ControlPath: <Mouse>
-        m_Flags: 0
     m_SearchText: 
   m_DirtyTitle:
     m_Text: (*) MasterInput (Input Actions)
@@ -601,22 +608,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Github\PapersPlease-Clone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c420000
-    m_LastClickedID: 17036
-    m_ExpandedIDs: 000000008c420000784300007a4300007c4300007e43000000ca9a3b
+    m_SelectedIDs: 26430000
+    m_LastClickedID: 17190
+    m_ExpandedIDs: 0000000016430000184300001a4300001c4300001e43000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +651,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c420000
+    m_ExpandedIDs: 0000000016430000184300001a4300001c4300001e430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,7 +678,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -732,7 +739,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 462
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -765,9 +772,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5eeaffff
-      m_LastClickedID: -5538
-      m_ExpandedIDs: 44e9fffff0ebffff0af8ffff36f9ffff90faffff3cfbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: c8d4ffff6ed8ffff6ce3ffffd0f1ffff3cfbffff564200008842000098420000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -827,9 +834,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.713377, y: 2.165074, z: -7.194555}
+    m_Target: {x: 0.41622603, y: 0.98695713, z: -11.726664}
     speed: 2
-    m_Value: {x: -3.713377, y: 2.165074, z: -7.194555}
+    m_Value: {x: 0.41622603, y: 0.98695713, z: -11.726664}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -880,9 +887,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.451984
+    m_Target: 4.646284
     speed: 2
-    m_Value: 3.451984
+    m_Value: 4.646284
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -965,7 +972,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

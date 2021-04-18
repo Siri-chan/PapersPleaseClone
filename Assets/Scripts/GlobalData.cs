@@ -11,6 +11,7 @@ public class GlobalData : MonoBehaviour
 {
     public static GlobalData data {get; private set;}
     public InfoGenerator gen;
+    public IDController draw;
     private void Awake(){
         if(data==null){data = this;
         DontDestroyOnLoad(gameObject);}

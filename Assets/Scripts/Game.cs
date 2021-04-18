@@ -17,13 +17,13 @@ public class Game : MonoBehaviour
             GenPassport();
         }
         else{
-            DrawPassport(x);
+            GlobalData.data.draw.DrawPassport(x);
         }
     }
     void GenPassport(){
         x = new Passport();
         //you can use x.credentials[i] to handle `if` statements with easier logic, then just use x.surname/forename/whatever for visual handling
-        Debug.Log(" Name: " + x.forename + " " + x.surname + "\n Country: " + x.country + "\n Printing Company: " + x.printer + "\n Gender: " + x.gender + "\n Email: " + x.email);
+        Debug.Log(" Name: " + x.forename + " " + x.surname + "\n Country: " + x.country + "\n Printing Company: " + x.printer + "\n Gender: " + x.gender + "\n Email: " + x.email + "\n Issuing Date: " + x.issueYear + "-" + x.issueMonth + "-" + x.issueDay + "\n Weight: " + x.weight + "\n Height: " + x.height);
         hasPassport = true;
     }
     public void OnConfirm(){
@@ -33,9 +33,5 @@ public class Game : MonoBehaviour
     public void OnDeny() {
         Debug.Log("Denied!");
         hasPassport = false;
-    }
-    void DrawPassport(Passport p){
-        //move this to a seperate script on a blank passport gameobject
-        return;
     }
 }
